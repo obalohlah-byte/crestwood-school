@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    background-color: #03256C;
+    color: #E4FDE1;
+}
+
+.header {
+    background-color: #E6AF2E;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 16px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.name {
+    width: 500px;
+}
+
+h1 {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    gap: 16px;
+    display: flex;
+    font-weight: bold;
+}
+
+a {
+    color: #E4FDE1;
+}
+
+button {
+    cursor: pointer;
+    padding: 16px 24px;
+    border-radius: 12px;
+    color: #E4FDE1;
+    background-color: #E6AF2E;
+    border: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 0px 16px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(hero-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero p {
+    line-height: 1.6;
+    max-width: 700px;
+}
+
+span {
+    color: #03256C;
+    text-shadow: 0px 0px 10px white;
+    font-size: 50px;
+}
+
+.all {
+    background-color: #E4FDE1;
+
+}
+
+.about-us {
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 2px;
+    color: #03256C;
+    border: 1px solid red;
+}
+
+
+.about-us p {
+    line-height: 1.6;
+    width: 900px;
+}
+
+.academic {
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url(hero-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    box-shadow: 10px 10px 10px black;   
+}
+
+.academic p h3 {
+    line-height: 1.6;
+    width: 900px;
+}
+
+.admissions {
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 2px;
+    color: #03256C;
+}
+
+.admissions p {
+    line-height: 1.6;
+    width: 900px;
+}
+
+.contact {
+    border: 1px solid red;
+    background-color: #E6AF2E;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 3px 0px;
+}
