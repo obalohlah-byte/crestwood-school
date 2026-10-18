@@ -50,6 +50,11 @@ nav ul {
     gap: 16px;
     display: flex;
     font-weight: bold;
+    /* transition: all 0.5s; */
+}
+
+nav li :hover {
+    color: #03256C;
 }
 
 a {
@@ -59,15 +64,23 @@ a {
 button {
     cursor: pointer;
     padding: 16px 24px;
+    margin-top: 16px;
     border-radius: 12px;
     color: #E4FDE1;
     background-color: #E6AF2E;
     border: none;
     font-weight: bold;
+    /* transition: all 0.5s; */
+}
+
+button:hover {
+    padding-bottom: 30px;
+    background-color: #03256C;
 }
 
 .hero {
     padding: 0px 16px;
+    min-height: 300px;
     gap: 16px;
     display: flex;
     align-items: center;
@@ -92,7 +105,7 @@ span {
 
 .body {
     background-color: #E4FDE1;
-
+    
 }
 
 .about-us {
@@ -127,6 +140,7 @@ span {
     text-align: center;
     margin-top: 2px;
     color: #03256C;
+    transition: all 0.5s;
 }
 
 .admissions p {
@@ -143,4 +157,39 @@ span {
 footer {
     text-align: center;
     padding: 3px 0px;
+}
+
+.services {
+    /* color: red; */
+    color: #03256C;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E6AF2E;
+    padding: 20px;
+    min-height: 300px;
+}
+
+.card {
+    border: 1px solid #E4FDE1;
+    width: 250px;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:aliceblue;
+    box-shadow: 1px 10px  10px black;
+    text-align: center;
+}
+
+i {
+    padding-bottom: 10px;
+}
+
+.why-us {
+    background-color: #E6AF2E;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px 30px;
+    color: #E4FDE1;
+    font-size: 24px;
 }
