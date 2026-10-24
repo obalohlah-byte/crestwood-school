@@ -97,7 +97,7 @@ button:hover {
     max-width: 700px;
 }
 
-span {
+#hero {
     color: #03256C;
     text-shadow: 0px 0px 10px white;
     font-size: 50px;
@@ -148,17 +148,6 @@ span {
     /* text-align: center; */
 }
 
-.contact {
-    border: 1px solid red;
-    background-color: #E6AF2E;
-    
-}
-
-footer {
-    text-align: center;
-    padding: 3px 0px;
-}
-
 .services {
     /* color: red; */
     color: #03256C;
@@ -166,22 +155,80 @@ footer {
     justify-content: space-evenly;
     background-color: #E6AF2E;
     padding: 20px;
-    min-height: 300px;
+    min-height: 400px;
+    flex-wrap: wrap;
+    /* align-items: center; */
 }
 
 .card {
     border: 1px solid #E4FDE1;
     width: 250px;
-    min-height: 300px;
+    /* min-height: 300px; */
     padding: 20px;
     border-radius: 20px;
     background-color:aliceblue;
     box-shadow: 1px 10px  10px black;
     text-align: center;
+    gap: 10px;
 }
 
 i {
     padding-bottom: 10px;
+}
+
+.info {
+    /* border: 1px solid red; */
+    background-color: #E6AF2E;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#links {
+    display: inline-block;
+    /* border: 1px solid #E4FDE1; */
+}
+
+#info {
+    /* border: 1px solid #E4FDE1; */
+    width: 300px;
+    
+}
+
+.info-services {
+    /* border: 1px solid #E4FDE1; */
+    width: 100px;
+}
+
+.info-about {
+    width: 400px;
+}
+
+.info-contact {
+    width: 300px;
+}
+
+.decoration {
+    border-bottom: 2px solid #03256C;
+}
+
+.info-icons {
+    /* border: 1px solid blue; */
+    width: 300px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.info-fa {
+    margin-top: 10px;
+} 
+
+footer {
+    text-align: center;
+    padding: 3px 0px;
 }
 
 .why-us {
