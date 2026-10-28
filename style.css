@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    background-color: #E6AF2E;
+    background: linear-gradient(#E6AF2E, #03256C);
     display: flex;
     justify-content: space-between;
     padding: 25px;
@@ -92,50 +92,50 @@ button:hover {
         font-size: 2rem;
         width: 800px;
         text-shadow: 0 0 2px white;
-    } */
+        } */
+        
+        .header {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 0px;
+            box-shadow: none;
+        }
+    }
     
-    .header {
+    /* header section on phone screen size */
+    @media (max-width:594px) {
+        h1  {
+            font-size: 1.6rem;
+            /* width: 500px; */
+            margin-left: 40px;
+            text-shadow: 0 0 2px white;
+        }
+        
+        .header {
+            /* flex-direction: column; */
+            align-items: center;
+            box-shadow: none;
+            margin-bottom: 0px;
+        }
+    }
+    
+    .hero {
+        padding: 0px 16px;
+        min-height: 300px;
+        gap: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
-        align-items: center;
-        margin-bottom: 0px;
-        box-shadow: none;
-    }
-}
-
-/* header section on phone screen size */
-@media (max-width:594px) {
-    h1  {
-        font-size: 1.6rem;
-        /* width: 500px; */
-        margin-left: 40px;
-        text-shadow: 0 0 2px white;
+        background-image: url(hero-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     
-    .header {
-        /* flex-direction: column; */
-        align-items: center;
-        box-shadow: none;
-        margin-bottom: 0px;
-    }
-}
-
-.hero {
-    padding: 0px 16px;
-    min-height: 300px;
-    gap: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-image: url(hero-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.hero p {
-    line-height: 1.6;
-    max-width: 700px;
+    .hero p {
+        line-height: 1.6;
+        max-width: 700px;
 }
 
 #hero {
@@ -155,7 +155,7 @@ button:hover {
         height: 70vh;
         margin-top: 0px;
     }
-
+    
     .hero button {
         margin-bottom: 20px;
     }
@@ -170,11 +170,11 @@ button:hover {
     #hero {
         font-size: 30px;
     }
-
+    
     .hero p {
         font-size: 1rem;
     }
-
+    
     .hero button {
         margin-bottom: 35px;
     }
@@ -226,6 +226,7 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     background-color: #E6AF2E;
+    /* background: linear-gradient(#03256C, #E6AF2E ); */
     padding: 20px;
     min-height: 400px;
     flex-wrap: wrap;
@@ -253,9 +254,9 @@ i {
     .services {
         display: block;
         /* background-color: #03256C; */
-        background-image: url(hero-background.jpg);
-        background-position: center;
-        background-size: cover;
+        /* background-image: url(hero-background.jpg); */
+        /* background-position: center;
+        background-size: cover; */
         
     }
     
@@ -268,7 +269,7 @@ i {
         padding-top: 40px;
         /* padding-left: 30px; */
     }
-
+    
     .services p h3 i button {
         margin-bottom: 16px;
     }
@@ -277,6 +278,7 @@ i {
 .info {
     /* border: 1px solid red; */
     background-color: #E6AF2E;
+    background: linear-gradient(#E6AF2E, #03256C);
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -327,6 +329,7 @@ i {
 footer {
     text-align: center;
     padding: 3px 0px;
+    border-top: 2px solid black;
 }
 
 .why-us {
