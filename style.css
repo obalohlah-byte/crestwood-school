@@ -71,12 +71,13 @@ button {
     background-color: #E6AF2E;
     border: none;
     font-weight: bold;
-    /* transition: all 0.5s; */
+    transition: all 0.3s ease;
 }
 
 button:hover {
-    padding-bottom: 30px;
-    background-color: #03256C;
+    /* padding-bottom: 30px; */
+    /* background-color: #03256C; */
+    background-color: #a8966d;
 }
 
 /* header section on ipad screen size */
